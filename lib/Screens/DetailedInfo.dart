@@ -24,8 +24,7 @@ class _DetailedInfoState extends State<DetailedInfo> {
   @override
   void initState() {
     // TODO: implement initState
-    print("jj");
-    print(widget.contact.name);
+
     super.initState();
   }
 
@@ -122,14 +121,14 @@ class _DetailedInfoState extends State<DetailedInfo> {
                         ),
                       ),
                       Padding(
-                        padding: const EdgeInsets.only(right: 230),
+                        padding: const EdgeInsets.only(),
                         child: Text(widget.contact.name,style: TextStyle(color: Colors.white,fontSize: 14,),),
                       ),
                       Padding(
-                        padding: const EdgeInsets.only(top:20.0,right: 220,left: 10.0),
+                        padding: const EdgeInsets.only(top:20.0,right: 0,left: 0.0),
                         child: Container(
                           height: 2,
-                          width: 150,
+                          width: double.infinity,
                           color: Colors.grey,
                         ),
                       ),
